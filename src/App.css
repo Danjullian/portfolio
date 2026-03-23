@@ -3727,3 +3727,38 @@ padding-left: 5px;
   height: 25px;
 
 }
+
+/* Keep mini card boxes consistent in production and local builds */
+@media (min-width: 768px) {
+  .projects-cert-grid {
+    align-items: stretch;
+  }
+
+  .projects-cert-grid .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .project-list,
+  .cert-list {
+    align-items: stretch;
+  }
+
+  .project-list {
+    grid-auto-rows: 1fr;
+  }
+
+  .cert-list {
+    grid-auto-rows: 1fr;
+  }
+
+  .project-item,
+  .cert-item {
+    height: 100%;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
