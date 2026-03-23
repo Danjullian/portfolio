@@ -253,18 +253,18 @@
     position: absolute;
     top: 28px;
     right: 18px;
-    max-width: 52%;
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    column-gap: 16px;
-    row-gap: 14px;
-    justify-content: end;
+    max-width: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    justify-content: flex-end;
     margin-top: 0;
   }
 
   .landing-links button {
-    font-size: 17px;
-    letter-spacing: 0.04em;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
   }
 
   .landing-subtitle {
