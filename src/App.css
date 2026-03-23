@@ -3728,6 +3728,35 @@ padding-left: 5px;
 
 }
 
+/* Unified content width so these sections align in deployment */
+:root {
+  --content-max-width: 1200px;
+}
+
+@media (min-width: 1400px) {
+  :root {
+    --content-max-width: 1400px;
+  }
+}
+
+.main-grid,
+.projects-cert-grid,
+.tech-stack-wide,
+.connect-container,
+.gallery-section,
+.footer {
+  max-width: var(--content-max-width) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Let contact grid use full width of its card container */
+.connect-grid {
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 /* Keep mini card boxes consistent in production and local builds */
 @media (min-width: 768px) {
   .projects-cert-grid {
