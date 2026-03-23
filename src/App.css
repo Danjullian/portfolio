@@ -3802,3 +3802,12 @@ padding-left: 5px;
     justify-content: flex-start;
   }
 }
+
+/* Keep landing Contact button at natural width on mobile */
+@media (max-width: 768px) {
+  .landing-actions .btn {
+    width: auto !important;
+    min-width: 0 !important;
+    align-self: flex-start;
+  }
+}
