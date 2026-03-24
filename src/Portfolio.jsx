@@ -54,30 +54,25 @@ export default function Portfolio() {
         {
             title: "BS Computer Science - 4th Year",
             company: "University of Caloocan City",
-            year: "2026",
         },
         {
             title: "Personal Projects",
             company: "Portfolio.",
-            year: "2026",
         },
         {
             title: "Academic Projects",
             company: "Web-Based System.",
-            year: "2026",
         },
 
         {
             title: "IT Intern",
             company: "CHED - MIMAROPA",
-            year: "2026",
         },
     
        
         {
             title: "Hello World!",
-            company: "Started learning programming",
-            year: "2022",
+            company: "Started learning programming.",
             withWave: true,
         },
     ];
