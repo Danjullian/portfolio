@@ -153,7 +153,7 @@ export default function Portfolio() {
                     </p>
 
                     <div className="landing-actions">
-                        <a className="landing-url-link" href="#profile" onClick={() => scrollToSection("profile")}>www.web.app/porfolio</a>
+                        <a className="landing-url-link" href="#profile" onClick={() => scrollToSection("profile")}>www.web.app/portfolio</a>
                         <button className="btn btn-white" onClick={() => scrollToSection("contact")}>Contact</button>
                     </div>
                 </div>
